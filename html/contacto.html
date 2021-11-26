@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sarah Fernández - Contacto</title>
+<link href="../css/style_contacto.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header></header>
+	
+	<nav>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	body {
+ 	 font-family: "Avenir", sans-serif;
+	}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #E8348A;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../index.html">Home</a>
+  <a href="biografía.html">Biografía</a>
+  <a href="cv.html">CV</a>
+  <a href="proyectos.html">Proyectos</a>
+  <a href="contacto.html">Contacto</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer; color:#E8348A;" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+	</nav>
+	
+	<main>
+	<div class="box_contact"><h1>CONTÁCTAME</h1></div>
+	
+	<div class= "box_form">
+	<form action="action_page.html" method="get">
+		<div class="box_label"><label>Nombre</label></div>
+		<div class="box_space"><input type="text" id="nombre" name="nombre"></div><br>
+		<div class="box_label"><label>Correo</label></div>
+		<div class="box_space">	<input type="text" id="apellido" name="apellido"></div><br>
+		<div class="box_label"><label>Mensaje</label></div>
+		<div class="box_space"><textarea mane: "mensaje">Escribe tu mensaje</textarea></div>
+			<br>
+			<div class="button_conoce_mas">
+				<a href="action_page.html"><input type= "submit" value="Enviar"></a>
+			</div>
+	  </form>	
+	</div>
+		
+	<div class="box_contact"><h1>Visita mis redes</h1></div>
+		
+	<div class="social">
+		<div class="img_social">
+			<img src="../medios/img/87390.png" alt="Instagram" class="facebook">
+			<img src="../medios/img/b763699fd1fa3bfb374442593ae642e1.png" alt="Facebook" class="facebook">
+		</div>	
+		<div class="text_social">
+			<a href="https://www.instagram.com/sof18landa?r=nametag" target="blank"><p>@sof18landa</p></a>
+			<a href="http://facebook.com/sarah.fernandez.7359" target="blank"><p>Sofi Landa</p></a>
+		</div>
+	</div>
+		
+	</main>
+	<footer></footer>
+</body>
+</html>

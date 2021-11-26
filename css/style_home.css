@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	width: 100%;
+}
+
+header{
+	height: 60px;
+	background-color: #3D0C20;
+}
+
+header>div{
+	color: #FFFFFF;
+	display: flex;
+	justify-content: flex-end;
+	text-align: center;
+	margin-right: 50px;
+	font-family: Avenir light, Raleway;
+}
+
+.home_01{
+	margin: 2% 7%;
+	display:flex;
+	flex-direction: row;
+}
+.home_01>div{
+	color: #8E205C;
+	line-height: 0px;
+}
+.home_01>div>h1{
+	font-size: 120px;
+	font-style: bolder;
+	line-height: 0px;
+	padding-top: 80px;
+}
+.home_01>div>p{
+	font-size: 50px;
+	font-style: normal;
+}
+.img_yo{
+	width: 60%;
+	height: auto;
+}
+.img_01{
+	width: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.button_conoce_mas{
+	display: flex;
+	justify-content: flex-end;
+}
+input[type=submit],button[type=button]{
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 350px;
+	height: 45px;
+	font-family: Avenir, Raleway;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: normal;
+	text-align:center;
+}
+
+.container {
+  margin: 7% 7%;
+  position: relative; 
+  max-width: 100%; /* Maximum width */
+  display: flex;
+  flex-direction: row;	
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  text-align: center;
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(132, 42, 92); /* Fallback color */
+  background: rgba(132, 42, 92,); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding-bottom: 10px;
+}
+footer{
+	width: 100%;
+	background-color: #3D0C20;
+	height: auto;
+	color:#FFFFFF;
+}
+.box_footer{
+	display: flex;
+	flex-direction: column;
+	line-height: 0px;
+	align-items: center;
+}
+a:link{ 
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:active{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover{
+	color:#F9D1E4;
+	font-weight:bolder;
+	text-decoration: none;
+}
+
+@media (max-width:360px){
+	body{
+		width: 100%;
+		margin: 2%;
+		background-color: #FFFFFF;
+	}
+	header{
+	    height: 60px;
+		background-color: #3D0C20;
+	}
+	header>div{
+		color: #FFFFFF;
+		display: flex;
+		justify-content: flex-end;
+		text-align: center;
+		margin-right: 50px;
+		font-family: Avenir light, Raleway;
+	}
+	.home_01{
+		margin: 2% 7%;
+		display:flex;
+		flex-direction: column;
+	}
+	.home_01>div{
+		color: #8E205C;
+		line-height: 0px;
+	}
+	.home_01>div>h1{
+		font-size: 60px;
+		font-style: bolder;
+		line-height: 0px;
+		padding-top: 50px;
+}
+	.home_01>div>p{
+		font-size: 20px;
+		font-style: normal;
+}
+	.img_yo{
+		width: 60%;
+		height: auto;
+		display: none;
+}
+	.button_conoce_mas{
+		display: flex;
+		justify-content: flex-end;
+}
+	input[type=submit],button[type=button]{
+		background-color: #000000;
+		color: #FFFFFF;
+		width: auto;
+		height: 45px;
+		font-family: Avenir, Raleway;
+		font-size: 18px;
+		font-style: italic;
+		font-weight: normal;
+		text-align:center;
+}
+	.container{
+ 		margin: 2% 7%;
+  		position: relative; 
+  		max-width: 100%; /* Maximum width */
+  		display: flex;
+  		flex-direction: row;	
+  		padding-top: 200px;
+}	
+	.container .content {
+  		position: absolute; /* Position the background text */
+  		text-align: center;
+  		bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  		background: rgb(132, 42, 92); /* Fallback color */
+  		background: rgba(132, 42, 92,); /* Black background with 0.5 opacity */
+  		color: #f1f1f1; /* Grey text */
+  		width: 100%; /* Full width */
+		padding-bottom: 10px;
+	 }
+	.img_02{
+		display: none;
+	}
+	
+}

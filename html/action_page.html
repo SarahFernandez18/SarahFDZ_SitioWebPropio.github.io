@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gracias</title>
+<link href="../css/style_contacto.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header></header>
+	
+	<nav>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	body {
+ 	 font-family: "Avenir", sans-serif;
+	}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #E8348A;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../index.html">Home</a>
+  <a href="biografía.html">Biografía</a>
+  <a href="cv.html">CV</a>
+  <a href="proyectos.html">Proyectos</a>
+  <a href="contacto.html">Contacto</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer; color:#E8348A;" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+	</nav>
+	<main>
+	<div class="thanks">
+		<img src="../medios/video/thank_you.gif" alt="Thank You"><br>
+		<a href="../index.html"><div class="button_conoce_mas"><input type= "submit" value="Ir a Home"></div></a>
+		
+	</div>
+	</main>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer></footer>
+</body>
+</html>
