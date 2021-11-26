@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sarah Fernández - Home</title>
+
+<link href="css/style_home.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<div><a href="html/contacto.html"><h4>Contacto</h4></a></div>
+	</header>
+	
+<nav>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	body {
+ 	 font-family: "Avenir", sans-serif;
+	}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #E8348A;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="html/biografía.html">Biografía</a>
+  <a href="html/cv.html">CV</a>
+  <a href="html/proyectos.html">Proyectos</a>
+  <a href="html/contacto.html">Contacto</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer; color:#E8348A;" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+</nav>
+	
+<main>
+ <div class="home_01">
+	<div class= "name_button">
+	  <h1>Sarah</h1><h1>Fernández</h1><br><p>Diseñador Gráfico</p>
+		<div class="button_conoce_mas">
+			<a href="html/biografía.html"><input type="submit" value="Conoce más..."></a>
+		</div>
+	</div>
+		<div class="img_01"><img src="medios/img/IMG_2285.JPG" alt="img" width="34%" height="649" class="img_yo"></div>
+	</div>
+			
+<div class="container">
+  <img src="medios/img/04" class="img_02"   alt="Foto01" style="width:33.3%;">
+  <img src="medios/img/03" class="img_02"   alt="Foto02" style="width:33.3%;">
+  <img src="medios/img/_MG_2818.jpg" class="img_02"   alt="Foto03" style="width:33.4%;">
+  	<div class="content">
+    	<h1>Fotografía</h1>
+    	<p>Descubre más de este proyecto</p>
+		<a href="html/foto.html"><input type="submit" value="Conoce más..."></a>
+  	</div>
+</div>
+
+	<div class="container">
+  <img src="medios/img/06" class="img_02" alt="Modelado 3D" style="width:100%;">
+  	<div class="content">
+    	<h1>Modelado 3D</h1>
+    	<p>Descubre más de este proyecto</p>
+		<a href="html/modelado_3d.html"><input type="submit" value="Conoce más..."></a>
+  	</div>
+</div>
+	
+	<div class="container">
+  <img src="medios/img/Captura-de-Pantalla-2021-11-25-a-la(s)-14.49.39.jpg" class="img_02" alt="Modelado 3D" style="width:100%;">
+  	<div class="content">
+    	<h1>Diseño Editorial</h1>
+    	<p>Descubre más de este proyecto</p>
+		<a href="html/editorial.html"><input type="submit" value="Conoce más..."></a>
+  	</div>
+</div>
+</main>
+	
+	<footer>
+	<div class="box_footer"> 
+		<div class="pfooter"><p><b>Instagram:</b>@sof18landa</p></div>
+		<div class="pfooter"><p><b>Facebook:</b> Sofi Landa</p></div>
+		<div class="pfooter"><p><b>Correo:</b> sarys99@hotmail.com</p></div>
+	</div>
+	</footer>
+</body>
+</html>
